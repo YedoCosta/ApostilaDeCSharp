@@ -1,0 +1,8 @@
+C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp-\ApostilaDeCSharp.EstruturasDeSelecao\bin\Debug\ApostilaDeCSharp.EstruturasDeSelecao.exe.config
+C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp-\ApostilaDeCSharp.EstruturasDeSelecao\bin\Debug\ApostilaDeCSharp.EstruturasDeSelecao.exe
+C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp-\ApostilaDeCSharp.EstruturasDeSelecao\bin\Debug\ApostilaDeCSharp.EstruturasDeSelecao.pdb
+C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp-\ApostilaDeCSharp.EstruturasDeSelecao\obj\Debug\ApostilaDeCSharp.EstruturasDeSelecao.csproj.AssemblyReference.cache
+C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp-\ApostilaDeCSharp.EstruturasDeSelecao\obj\Debug\ApostilaDeCSharp.EstruturasDeSelecao.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp-\ApostilaDeCSharp.EstruturasDeSelecao\obj\Debug\ApostilaDeCSharp.EstruturasDeSelecao.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp-\ApostilaDeCSharp.EstruturasDeSelecao\obj\Debug\ApostilaDeCSharp.EstruturasDeSelecao.exe
+C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp-\ApostilaDeCSharp.EstruturasDeSelecao\obj\Debug\ApostilaDeCSharp.EstruturasDeSelecao.pdb
