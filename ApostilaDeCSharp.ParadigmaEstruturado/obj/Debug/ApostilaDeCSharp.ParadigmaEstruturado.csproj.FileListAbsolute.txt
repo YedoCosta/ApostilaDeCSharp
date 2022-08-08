@@ -1,0 +1,8 @@
+C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\ApostilaDeCSharp.ParadigmaEstruturado\bin\Debug\ApostilaDeCSharp.ParadigmaEstruturado.exe.config
+C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\ApostilaDeCSharp.ParadigmaEstruturado\bin\Debug\ApostilaDeCSharp.ParadigmaEstruturado.exe
+C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\ApostilaDeCSharp.ParadigmaEstruturado\bin\Debug\ApostilaDeCSharp.ParadigmaEstruturado.pdb
+C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\ApostilaDeCSharp.ParadigmaEstruturado\obj\Debug\ApostilaDeCSharp.ParadigmaEstruturado.csproj.AssemblyReference.cache
+C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\ApostilaDeCSharp.ParadigmaEstruturado\obj\Debug\ApostilaDeCSharp.ParadigmaEstruturado.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\ApostilaDeCSharp.ParadigmaEstruturado\obj\Debug\ApostilaDeCSharp.ParadigmaEstruturado.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\ApostilaDeCSharp.ParadigmaEstruturado\obj\Debug\ApostilaDeCSharp.ParadigmaEstruturado.exe
+C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\ApostilaDeCSharp.ParadigmaEstruturado\obj\Debug\ApostilaDeCSharp.ParadigmaEstruturado.pdb
