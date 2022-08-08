@@ -17,7 +17,8 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
             
             Movimentacao m = new Movimentacao();
             m.Voar(p);
-            Console.WriteLine("");
+            Console.WriteLine(m.Voar(p));
+            Console.ReadKey();
         }
     }
 }
