@@ -1,0 +1,8 @@
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ApostilaDeCSharp\ApostilaDeCSharp.OrientacaoObjetos\bin\Debug\ApostilaDeCSharp.OrientacaoObjetos.exe.config
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ApostilaDeCSharp\ApostilaDeCSharp.OrientacaoObjetos\bin\Debug\ApostilaDeCSharp.OrientacaoObjetos.exe
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ApostilaDeCSharp\ApostilaDeCSharp.OrientacaoObjetos\bin\Debug\ApostilaDeCSharp.OrientacaoObjetos.pdb
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ApostilaDeCSharp\ApostilaDeCSharp.OrientacaoObjetos\obj\Debug\ApostilaDeCSharp.OrientacaoObjetos.csproj.AssemblyReference.cache
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ApostilaDeCSharp\ApostilaDeCSharp.OrientacaoObjetos\obj\Debug\ApostilaDeCSharp.OrientacaoObjetos.csproj.SuggestedBindingRedirects.cache
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ApostilaDeCSharp\ApostilaDeCSharp.OrientacaoObjetos\obj\Debug\ApostilaDeCSharp.OrientacaoObjetos.csproj.CoreCompileInputs.cache
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ApostilaDeCSharp\ApostilaDeCSharp.OrientacaoObjetos\obj\Debug\ApostilaDeCSharp.OrientacaoObjetos.exe
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ApostilaDeCSharp\ApostilaDeCSharp.OrientacaoObjetos\obj\Debug\ApostilaDeCSharp.OrientacaoObjetos.pdb

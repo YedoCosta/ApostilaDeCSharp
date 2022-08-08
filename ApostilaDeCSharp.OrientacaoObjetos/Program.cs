@@ -12,11 +12,11 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
         {
             Personagem p = new Personagem();
             p.Nome = "Aloy";
-            p.QtdePontos = 0;
+            p.QtdePontos = 10;
             p.QtdeVidas = 7;
-            
+            Console.WriteLine(p.Voare());
+
             Movimentacao m = new Movimentacao();
-            m.Voar(p);
             Console.WriteLine(m.Voar(p));
             Console.ReadKey();
         }

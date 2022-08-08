@@ -8,6 +8,7 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
 {
     public class Movimentacao
     {
+        // Estou criando método Construtor
         public string Voar(Personagem p)
         {
             if(p.QtdePontos > 10)
@@ -18,7 +19,6 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
             {
                 return $"{p.Nome} não voou";
             }
-            return $"{p.Nome}  voou";
         }
         public void Nadar(Personagem p)
         {
