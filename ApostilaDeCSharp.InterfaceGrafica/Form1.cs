@@ -30,12 +30,82 @@ namespace ApostilaDeCSharp.InterfaceGrafica
 
         private void btnNadar_Click(object sender, EventArgs e)
         {
-            Personagem p1 = new Personagem();
-            p1.Nome = txtNome.Text;
-            p1.QtdePontos = int.Parse(txtPontos.Text);
+            Personagem p = new Personagem();
+            p.Nome = txtNome.Text;
+            p.QtdePontos = int.Parse(txtPontos.Text);
 
-            Movimentacao m1 = new Movimentacao();
-            MessageBox.Show (m1.Nadar(p1));
+            Movimentacao m = new Movimentacao();
+            MessageBox.Show(m.Nadar(p));
+        }
+
+        private void btnAndar_Click(object sender, EventArgs e)
+        {
+            Personagem p = new Personagem();
+            p.Nome = txtNome.Text;
+            p.QtdePontos = int.Parse(txtPontos.Text);
+
+            Movimentacao m = new Movimentacao();
+            MessageBox.Show(m.Andar(p));
+        }
+
+        private void btnParar_Click(object sender, EventArgs e)
+        {
+            Personagem p = new Personagem();
+            p.Nome = txtNome.Text;
+            p.QtdePontos = int.Parse(txtPontos.Text);
+
+            Movimentacao m = new Movimentacao();
+            MessageBox.Show(m.Parar(p));
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Personagem p = new Personagem();
+            p.Nome = txtNome.Text;
+            p.QtdePontos = int.Parse(txtPontos.Text);
+
+            Movimentacao m = new Movimentacao();
+            MessageBox.Show(m.Voltar(p));
+        }
+
+        private void btnPular_Click(object sender, EventArgs e)
+        {
+            Personagem p = new Personagem();
+            p.Nome = txtNome.Text;
+            p.QtdePontos = int.Parse(txtPontos.Text);
+
+            Movimentacao m = new Movimentacao();
+            MessageBox.Show(m.Pular(p));
+        }
+
+        private void btnCorrer_Click(object sender, EventArgs e)
+        {
+            Personagem p = new Personagem();
+            p.Nome = txtNome.Text;
+            p.QtdePontos = int.Parse(txtPontos.Text);
+
+            Movimentacao m = new Movimentacao();
+            MessageBox.Show(m.Correr(p));
+        }
+
+        private void btnVirarDireita_Click(object sender, EventArgs e)
+        {
+            Personagem p = new Personagem();
+            p.Nome = txtNome.Text;
+            p.QtdePontos = int.Parse(txtPontos.Text);
+
+            Movimentacao m = new Movimentacao();
+            MessageBox.Show(m.VirarDireita(p));
+        }
+
+        private void btnVirarEsquerda_Click(object sender, EventArgs e)
+        {
+            Personagem p = new Personagem();
+            p.Nome = txtNome.Text;
+            p.QtdePontos = int.Parse(txtPontos.Text);
+
+            Movimentacao m = new Movimentacao();
+            MessageBox.Show(m.VirarEsquerda(p));
         }
     }
 }

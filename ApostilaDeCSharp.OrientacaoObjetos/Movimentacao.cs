@@ -15,7 +15,10 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
         {
             if(p.QtdePontos > 10)
             {
-                SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\voando.wav");
+                // diretorio de som em casa **************
+                SoundPlayer player = new SoundPlayer(@"C:\Users\UltraHP\Documents\voando.wav");
+                // diretorio de som no senai **************
+                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\voando.wav");
                 //SoundPlayer player = new SoundPlayer();
                 //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
                 //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
@@ -29,11 +32,12 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
             }
         }
 
-    public string Nadar(Personagem p)
+        public string Nadar(Personagem p)
         {
             if (p.QtdePontos > 10)
             {
-                SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\nadar.wav");
+                SoundPlayer player = new SoundPlayer(@"C:\Users\UltraHP\Documents\Nadar.wav");
+                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\nadar.wav");
                 //SoundPlayer player = new SoundPlayer();
                 //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
                 //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
@@ -51,7 +55,8 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
         {
             if (p.QtdePontos > 10)
             {
-                SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\pular.wav");
+                SoundPlayer player = new SoundPlayer(@"C:\Users\UltraHP\Documents\Pular.wav");
+                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\voando.wav");
                 //SoundPlayer player = new SoundPlayer();
                 //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
                 //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
@@ -68,7 +73,8 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
         {
             if (p.QtdePontos > 10)
             {
-                SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\correr.wav");
+                SoundPlayer player = new SoundPlayer(@"C:\Users\UltraHP\Documents\Correr.wav");
+                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\correr.wav");
                 //SoundPlayer player = new SoundPlayer();
                 //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
                 //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
@@ -84,23 +90,91 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
         }
         public string VirarEsquerda(Personagem p)
         {
-            return $"{p.Nome} Virou a esquerda!";
+            if (p.QtdePontos > 10)
+            {
+                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\virare.wav");
+                //SoundPlayer player = new SoundPlayer();
+                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
+                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
+                //player.Play();
+                //player.PlayLooping();
+                return $"{p.Nome} Virou esquerda";
+            }
+            else
+            {
+                return $"{p.Nome} não Virou esquerda";
+            }
+             
         }
         public string VirarDireita(Personagem p)
         {
-            return $"{p.Nome} Virou a direita!";
+            if (p.QtdePontos > 10)
+            {
+                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\virard.wav");
+                //SoundPlayer player = new SoundPlayer();
+                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
+                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
+                //player.Play();
+                //player.PlayLooping();
+                return $"{p.Nome} Virou direita";
+            }
+            else
+            {
+                return $"{p.Nome} não Virou direita";
+            }
         }
         public string Parar(Personagem p)
         {
-            return $"{p.Nome} Parou!";
+            if (p.QtdePontos > 10)
+            {
+                SoundPlayer player = new SoundPlayer(@"C:\Users\UltraHP\Documents\Freada.wav");
+                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\parar.wav");
+                //SoundPlayer player = new SoundPlayer();
+                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
+                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
+                //player.Play();
+                player.PlayLooping();
+                return $"{p.Nome} Parou";
+            }
+            else
+            {
+                return $"{p.Nome} não Parou";
+            }
         }
         public string Andar(Personagem p)
         {
-            return $"{p.Nome} Andou!";
+            if (p.QtdePontos > 10)
+            {
+                SoundPlayer player = new SoundPlayer(@"C:\Users\UltraHP\Documents\Andar.wav");
+                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\voando.wav");
+                //SoundPlayer player = new SoundPlayer();
+                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
+                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
+                //player.Play();
+                player.PlayLooping();
+                return $"{p.Nome} Andou";
+            }
+            else
+            {
+                return $"{p.Nome} não Andou";
+            }
         }
         public string Voltar(Personagem p)
         {
-            return $"{p.Nome} Voltou!";
+            if (p.QtdePontos > 10)
+            {
+               // SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\voltar.wav");
+                //SoundPlayer player = new SoundPlayer();
+                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
+                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
+                //player.Play();
+               // player.PlayLooping();
+                return $"{p.Nome} Voltou";
+            }
+            else
+            {
+                return $"{p.Nome} não Voltou";
+            }
         }
     }
 }

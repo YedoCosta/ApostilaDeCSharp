@@ -74,6 +74,7 @@
             this.btnPular.TabIndex = 2;
             this.btnPular.Text = "Pular";
             this.btnPular.UseVisualStyleBackColor = true;
+            this.btnPular.Click += new System.EventHandler(this.btnPular_Click);
             // 
             // btnCorrer
             // 
@@ -84,6 +85,7 @@
             this.btnCorrer.TabIndex = 3;
             this.btnCorrer.Text = "Correr";
             this.btnCorrer.UseVisualStyleBackColor = true;
+            this.btnCorrer.Click += new System.EventHandler(this.btnCorrer_Click);
             // 
             // btnVirarEsquerda
             // 
@@ -94,6 +96,7 @@
             this.btnVirarEsquerda.TabIndex = 4;
             this.btnVirarEsquerda.Text = "Virar a Esquerda";
             this.btnVirarEsquerda.UseVisualStyleBackColor = true;
+            this.btnVirarEsquerda.Click += new System.EventHandler(this.btnVirarEsquerda_Click);
             // 
             // btnVirarDireita
             // 
@@ -104,6 +107,7 @@
             this.btnVirarDireita.TabIndex = 5;
             this.btnVirarDireita.Text = "Virar a Direita";
             this.btnVirarDireita.UseVisualStyleBackColor = true;
+            this.btnVirarDireita.Click += new System.EventHandler(this.btnVirarDireita_Click);
             // 
             // btnAndar
             // 
@@ -114,6 +118,7 @@
             this.btnAndar.TabIndex = 6;
             this.btnAndar.Text = "Andar";
             this.btnAndar.UseVisualStyleBackColor = true;
+            this.btnAndar.Click += new System.EventHandler(this.btnAndar_Click);
             // 
             // btnParar
             // 
@@ -124,6 +129,7 @@
             this.btnParar.TabIndex = 7;
             this.btnParar.Text = "Parar";
             this.btnParar.UseVisualStyleBackColor = true;
+            this.btnParar.Click += new System.EventHandler(this.btnParar_Click);
             // 
             // btnVoltar
             // 
@@ -134,6 +140,7 @@
             this.btnVoltar.TabIndex = 8;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // label1
             // 
@@ -190,6 +197,7 @@
             this.Controls.Add(this.btnNadar);
             this.Controls.Add(this.btnVoar);
             this.Name = "lblTotalPontos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Drive I";
             this.ResumeLayout(false);
             this.PerformLayout();
