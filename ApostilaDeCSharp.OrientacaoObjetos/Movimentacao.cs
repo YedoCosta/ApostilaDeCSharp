@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,11 +9,18 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
 {
     public class Movimentacao
     {
-        // Estou criando método Construtor
+        // Estou criando método Construtor por associação 
         public string Voar(Personagem p)
+
         {
             if(p.QtdePontos > 10)
             {
+                SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\voando.wav");
+                //SoundPlayer player = new SoundPlayer();
+                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
+                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
+                //player.Play();
+                player.PlayLooping();
                 return $"{p.Nome} voou";
             }
             else
@@ -20,37 +28,79 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
                 return $"{p.Nome} não voou";
             }
         }
-        public void Nadar(Personagem p)
+
+    public string Nadar(Personagem p)
         {
+            if (p.QtdePontos > 10)
+            {
+                SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\nadar.wav");
+                //SoundPlayer player = new SoundPlayer();
+                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
+                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
+                //player.Play();
+                player.PlayLooping();
+                return $"{p.Nome} Nadou";
+            }
+            else
+            {
+                return $"{p.Nome} não nadou";
+            }
 
         }
-        public void Pular(Personagem p)
+        public string Pular(Personagem p)
         {
+            if (p.QtdePontos > 10)
+            {
+                SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\pular.wav");
+                //SoundPlayer player = new SoundPlayer();
+                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
+                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
+                //player.Play();
+                player.PlayLooping();
+                return $"{p.Nome} Pulou";
+            }
+            else
+            {
+                return $"{p.Nome} não Pulou";
+            }
+        }
+        public string Correr(Personagem p)
+        {
+            if (p.QtdePontos > 10)
+            {
+                SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\correr.wav");
+                //SoundPlayer player = new SoundPlayer();
+                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
+                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
+                //player.Play();
+                player.PlayLooping();
+                return $"{p.Nome} Correu";
+            }
+            else
+            {
+                return $"{p.Nome} não Correu";
+            }
 
         }
-        public void Correr(Personagem p)
+        public string VirarEsquerda(Personagem p)
         {
-
+            return $"{p.Nome} Virou a esquerda!";
         }
-        public void VirarEsquerda(Personagem p)
+        public string VirarDireita(Personagem p)
         {
-
+            return $"{p.Nome} Virou a direita!";
         }
-        public void VirarDireita(Personagem p)
+        public string Parar(Personagem p)
         {
-
+            return $"{p.Nome} Parou!";
         }
-        public void Parar(Personagem p)
+        public string Andar(Personagem p)
         {
-
+            return $"{p.Nome} Andou!";
         }
-        public void Andar(Personagem p)
+        public string Voltar(Personagem p)
         {
-
-        }
-        public void Voltar(Personagem p)
-        {
-
+            return $"{p.Nome} Voltou!";
         }
     }
 }
