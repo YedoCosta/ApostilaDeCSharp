@@ -13,6 +13,7 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
         public string Nome { get; set; }
         public int QtdeVidas { get; set; }
         public int QtdePontos    { get; set; }
+    
 
         public string Voare()
         {

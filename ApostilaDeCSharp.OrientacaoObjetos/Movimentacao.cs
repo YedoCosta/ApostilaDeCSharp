@@ -13,18 +13,21 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
         public string Voar(Personagem p)
 
         {
+
             if(p.QtdePontos > 10)
             {
                 // diretorio de som em casa **************
-                SoundPlayer player = new SoundPlayer(@"C:\Users\UltraHP\Documents\voando.wav");
+                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\voando.wav");
                 // diretorio de som no senai **************
                 //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\voando.wav");
-                //SoundPlayer player = new SoundPlayer();
+                // Neste caso para mandar os arquivos para o cliente - 2 cliques em Propeties e Resouces
+                // colar os arquvos no diretorio
+                SoundPlayer player = new SoundPlayer(Properties.Resources.voando);
                 //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
                 //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
                 //player.Play();
                 player.PlayLooping();
-                return $"{p.Nome} voou";
+                return $"{p.Nome} voou {DateTime.Now.ToString("F")}";
             }
             else
             {
@@ -36,14 +39,10 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
         {
             if (p.QtdePontos > 10)
             {
-                SoundPlayer player = new SoundPlayer(@"C:\Users\UltraHP\Documents\Nadar.wav");
-                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\nadar.wav");
-                //SoundPlayer player = new SoundPlayer();
-                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
-                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
-                //player.Play();
+                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\Nadar.wav");
+                SoundPlayer player = new SoundPlayer(Properties.Resources.Nadar);
                 player.PlayLooping();
-                return $"{p.Nome} Nadou";
+                return $"{p.Nome} Nadou {DateTime.Now.ToString("F")}";
             }
             else
             {
@@ -55,14 +54,10 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
         {
             if (p.QtdePontos > 10)
             {
-                SoundPlayer player = new SoundPlayer(@"C:\Users\UltraHP\Documents\Pular.wav");
-                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\voando.wav");
-                //SoundPlayer player = new SoundPlayer();
-                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
-                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
-                //player.Play();
+                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\Pular.wav");
+                SoundPlayer player = new SoundPlayer(Properties.Resources.Pular);
                 player.PlayLooping();
-                return $"{p.Nome} Pulou";
+                return $"{p.Nome} Pulou {DateTime.Now.ToString("F")}";
             }
             else
             {
@@ -73,14 +68,10 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
         {
             if (p.QtdePontos > 10)
             {
-                SoundPlayer player = new SoundPlayer(@"C:\Users\UltraHP\Documents\Correr.wav");
-                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\correr.wav");
-                //SoundPlayer player = new SoundPlayer();
-                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
-                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
-                //player.Play();
+                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\Correr.wav");
+                SoundPlayer player = new SoundPlayer(Properties.Resources.Correr);
                 player.PlayLooping();
-                return $"{p.Nome} Correu";
+                return $"{p.Nome} Correu {DateTime.Now.ToString("F")}";
             }
             else
             {
@@ -93,12 +84,11 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
             if (p.QtdePontos > 10)
             {
                 //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\virare.wav");
-                //SoundPlayer player = new SoundPlayer();
-                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
-                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
-                //player.Play();
                 //player.PlayLooping();
-                return $"{p.Nome} Virou esquerda";
+
+                string Date = DateTime.Now.ToString("F");
+                return $"{Date} Virou esquerda";
+                //return $"{p.Nome} Virou esquerda";
             }
             else
             {
@@ -111,10 +101,6 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
             if (p.QtdePontos > 10)
             {
                 //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\virard.wav");
-                //SoundPlayer player = new SoundPlayer();
-                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
-                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
-                //player.Play();
                 //player.PlayLooping();
                 return $"{p.Nome} Virou direita";
             }
@@ -127,14 +113,10 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
         {
             if (p.QtdePontos > 10)
             {
-                SoundPlayer player = new SoundPlayer(@"C:\Users\UltraHP\Documents\Freada.wav");
-                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\parar.wav");
-                //SoundPlayer player = new SoundPlayer();
-                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
-                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
-                //player.Play();
+                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\Freada.wav");
+                SoundPlayer player = new SoundPlayer(Properties.Resources.Freada);
                 player.PlayLooping();
-                return $"{p.Nome} Parou";
+                return $"{p.Nome} Parou {DateTime.Now.ToString("F")}";
             }
             else
             {
@@ -145,14 +127,10 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
         {
             if (p.QtdePontos > 10)
             {
-                SoundPlayer player = new SoundPlayer(@"C:\Users\UltraHP\Documents\Andar.wav");
-                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\voando.wav");
-                //SoundPlayer player = new SoundPlayer();
-                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
-                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
-                //player.Play();
+                //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\Andar.wav");
+                SoundPlayer player = new SoundPlayer(Properties.Resources.Andar);
                 player.PlayLooping();
-                return $"{p.Nome} Andou";
+                return $"{p.Nome} Andou {DateTime.Now.ToString("F")}";
             }
             else
             {
@@ -164,12 +142,8 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
             if (p.QtdePontos > 10)
             {
                // SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\voltar.wav");
-                //SoundPlayer player = new SoundPlayer();
-                //player.SoundLocation = "C:\\Users\\Aluno\\Documents\\voando.wav";
-                //player.SoundLocation = @"C:\Users\Aluno\Documents\voando.wav";
-                //player.Play();
                // player.PlayLooping();
-                return $"{p.Nome} Voltou";
+                return $"{p.Nome} Voltou {DateTime.Now.ToString("F")}";
             }
             else
             {

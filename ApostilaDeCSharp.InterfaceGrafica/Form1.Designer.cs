@@ -199,6 +199,7 @@
             this.Name = "lblTotalPontos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Drive I";
+            this.Load += new System.EventHandler(this.lblTotalPontos_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -47,10 +47,39 @@
     <Compile Include="Personagem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="WMPLib\WindowsMediaPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Andar.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Correr.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Freada.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nadar.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pular.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voando.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -107,5 +107,12 @@ namespace ApostilaDeCSharp.InterfaceGrafica
             Movimentacao m = new Movimentacao();
             MessageBox.Show(m.VirarEsquerda(p));
         }
+
+
+
+        private void lblTotalPontos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
