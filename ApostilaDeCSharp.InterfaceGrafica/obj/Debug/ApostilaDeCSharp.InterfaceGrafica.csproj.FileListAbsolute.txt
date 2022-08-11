@@ -32,3 +32,7 @@ C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\ApostilaDeCSharp.Interface
 C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\ApostilaDeCSharp.InterfaceGrafica\obj\Debug\ApostilaDeCSharp.InterfaceGrafica.csproj.CopyComplete
 C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\ApostilaDeCSharp.InterfaceGrafica\obj\Debug\ApostilaDeCSharp.InterfaceGrafica.exe
 C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\ApostilaDeCSharp.InterfaceGrafica\obj\Debug\ApostilaDeCSharp.InterfaceGrafica.pdb
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ApostilaDeCSharp\ApostilaDeCSharp.InterfaceGrafica\bin\Debug\ApostilaDeCSharp.InterfaceGrafica.exe.manifest
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ApostilaDeCSharp\ApostilaDeCSharp.InterfaceGrafica\bin\Debug\ApostilaDeCSharp.InterfaceGrafica.application
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ApostilaDeCSharp\ApostilaDeCSharp.InterfaceGrafica\obj\Debug\ApostilaDeCSharp.InterfaceGrafica.exe.manifest
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ApostilaDeCSharp\ApostilaDeCSharp.InterfaceGrafica\obj\Debug\ApostilaDeCSharp.InterfaceGrafica.application

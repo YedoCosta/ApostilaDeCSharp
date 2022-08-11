@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Media;
 using System.Text;
@@ -42,6 +43,20 @@ namespace ApostilaDeCSharp.OrientacaoObjetos
                 //SoundPlayer player = new SoundPlayer(@"C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\Nadar.wav");
                 SoundPlayer player = new SoundPlayer(Properties.Resources.Nadar);
                 player.PlayLooping();
+                //==========================
+                //== Ler e gravar um texto .txt
+                //== https://docs.microsoft.com/pt-br/troubleshoot/developer/visualstudio/csharp/language-compilers/read-write-text-file
+                //========================= 
+                //Pass the filepath and filename to the StreamWriter Constructor
+                StreamWriter sw = new StreamWriter("C:\\Users\\UltraHP\\Documents\\Test.txt");
+                //Write a line of text
+                sw.WriteLine("Hello World!!");
+                //Write a second line of text
+                sw.WriteLine("From the StreamWriter class");
+                sw.WriteLine($"{p.Nome} Nadou {DateTime.Now.ToString("F")}");
+                //Close the file
+                sw.Close();
+                //==========================
                 return $"{p.Nome} Nadou {DateTime.Now.ToString("F")}";
             }
             else

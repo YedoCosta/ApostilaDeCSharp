@@ -16,3 +16,5 @@ C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\ApostilaDeCSharp.Orientaca
 C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\ApostilaDeCSharp.OrientacaoObjetos\obj\Debug\ApostilaDeCSharp.OrientacaoObjetos.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\ApostilaDeCSharp.OrientacaoObjetos\obj\Debug\ApostilaDeCSharp.OrientacaoObjetos.exe
 C:\Users\Aluno\Documents\VS Comunity\ApostilaDeCSharp\ApostilaDeCSharp.OrientacaoObjetos\obj\Debug\ApostilaDeCSharp.OrientacaoObjetos.pdb
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ApostilaDeCSharp\ApostilaDeCSharp.OrientacaoObjetos\obj\Debug\ApostilaDeCSharp.OrientacaoObjetos.Properties.Resources.resources
+C:\Users\UltraHP\Documents\ProjetosVS2022\Vscommunity\ApostilaDeCSharp\ApostilaDeCSharp.OrientacaoObjetos\obj\Debug\ApostilaDeCSharp.OrientacaoObjetos.csproj.GenerateResource.cache

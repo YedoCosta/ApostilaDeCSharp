@@ -49,19 +49,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8EnvVm8v1Lnf6ljsb9iHxyqvi8BjNKN0786WaZjmb9k=</dsig:DigestValue>
+        <dsig:DigestValue>PY9Djd8Dtiv2fyS/JWZFl0hTxm3jarUc9ZB3O75LbAA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ApostilaDeCSharp.OrientacaoObjetos.exe" size="21295616">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ApostilaDeCSharp.OrientacaoObjetos.exe" size="21296128">
       <assemblyIdentity name="ApostilaDeCSharp.OrientacaoObjetos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Gj2+15ZAPqJSoRKp2n+WGD1ogJTcEjnR0qQgo39vBLQ=</dsig:DigestValue>
+        <dsig:DigestValue>newtglw6JdKvIomuXjCA5AnUIsNQVfG0202WtHqOM3k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
